@@ -1,8 +1,8 @@
 import json
 from nose.tools import eq_
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
+from mondata import column_value as cv
+from mondata.enums import ColumnType
 
 def test_should_suceed_when_to_native_returns_list_when_passing_api_data_to_sub_item_value():
 

@@ -3,9 +3,9 @@ from schematics.exceptions import ConversionError
 from nose.tools import eq_,raises
 from enum import Enum
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli.types import StatusType
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata.types import StatusType
 
 # default class and data mapping declaration for common use
 class Status(Enum):

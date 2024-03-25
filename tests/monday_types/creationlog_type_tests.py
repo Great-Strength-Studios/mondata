@@ -2,9 +2,9 @@ from datetime import datetime, timezone
 
 from nose.tools import eq_
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli.types import CreationLogType
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata.types import CreationLogType
 
 def test_should_suceed_when_to_native_returns_a_local_datetime_when_passed_a_creationlogvalue_value_with_api_data_to_creationlog_type():
 

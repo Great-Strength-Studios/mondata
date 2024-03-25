@@ -2,10 +2,10 @@ from nose.tools import eq_,raises
 from unittest.mock import patch
 from schematics.exceptions import ConversionError
 
-from moncli import *
-from moncli import entities as en
-from moncli.enums import ColumnType
-from moncli import types as t
+from mondata import *
+from mondata import entities as en
+from mondata.enums import ColumnType
+from mondata import types as t
 
 
 @patch.object(en.Item,'get_column_values')

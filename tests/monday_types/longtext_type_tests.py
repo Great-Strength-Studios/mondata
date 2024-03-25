@@ -2,9 +2,9 @@ import json
 
 from nose.tools import eq_
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli.types import LongTextType
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata.types import LongTextType
 
 
 def test_longtext_type_should_succeed_when_to_native_returns_a_str_when_passing_a_longtext_value_with_api_data():

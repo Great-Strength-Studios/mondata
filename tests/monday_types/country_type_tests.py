@@ -2,11 +2,11 @@ import json
 from nose.tools import eq_,raises
 from schematics.exceptions import ConversionError, DataError
 
-from moncli import *
-from moncli import entities as en
-from moncli.enums import ColumnType
-from moncli.models import MondayModel
-from moncli import types as t
+from mondata import *
+from mondata import entities as en
+from mondata.enums import ColumnType
+from mondata.models import MondayModel
+from mondata import types as t
 
 def test_should_succeed_when_to_native_returns_a_country_when_passing_in_a_country_value_value_with_api_data_to_country_type():
     

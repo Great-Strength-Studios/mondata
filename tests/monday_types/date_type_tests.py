@@ -4,9 +4,9 @@ from datetime import datetime, timezone
 from nose.tools import eq_, raises
 from schematics.exceptions import ConversionError
 
-from moncli import column_value as cv, types as t
-from moncli.config import DATE_FORMAT, TIME_FORMAT
-from moncli.enums import ColumnType
+from mondata import column_value as cv, types as t
+from mondata.config import DATE_FORMAT, TIME_FORMAT
+from mondata.enums import ColumnType
 
 
 

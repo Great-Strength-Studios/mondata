@@ -1,10 +1,10 @@
 from schematics.exceptions import ConversionError, DataError, ValidationError
 from nose.tools import eq_,raises
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli.models import MondayModel
-from moncli.types import HourType
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata.models import MondayModel
+from mondata.types import HourType
 
 
 def test_should_succeed_when_to_native_returns_an_hour_when_passed_a_hourvalue_value_with_api_data_to_hour_type():

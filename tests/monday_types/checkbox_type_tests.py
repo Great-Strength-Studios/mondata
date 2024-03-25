@@ -3,9 +3,9 @@ import json
 from nose.tools import eq_
 
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli.types import CheckboxType
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata.types import CheckboxType
 
 
 def test_checkbox_type_should_succeed_when_to_native_returns_a_bool_when_passing_a_checkboxvalue_value_with_api_data():

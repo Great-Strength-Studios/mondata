@@ -3,8 +3,8 @@ from datetime import datetime
 from re import L
 
 from nose.tools import ok_, eq_, raises
-from moncli import column_value as cv, error as e
-from moncli.enums import *
+from mondata import column_value as cv, error as e
+from mondata.enums import *
 
 
 def test_should_return_empty_text_column_value():

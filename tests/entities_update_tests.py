@@ -1,7 +1,7 @@
 from unittest.mock import patch
 from nose.tools import ok_, eq_
 
-from moncli import client, entities as en
+from mondata import client, entities as en
 
 TEST_USER = en.User(**{'creds': None, 'id': '1', 'email': 'foo.bar@test.com'})
 

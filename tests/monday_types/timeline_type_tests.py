@@ -1,10 +1,10 @@
 from schematics.exceptions import ConversionError, DataError
 from nose.tools import eq_,raises
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli.models import MondayModel
-from moncli.types import TimelineType
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata.models import MondayModel
+from mondata.types import TimelineType
 
 import json
 from datetime import datetime

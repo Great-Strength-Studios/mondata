@@ -2,10 +2,10 @@ import json
 from schematics.exceptions import DataError
 from nose.tools import eq_,raises
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli.models import MondayModel
-from moncli.types import LinkType
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata.models import MondayModel
+from mondata.types import LinkType
 
 
 def test_should_succeed_when_to_native_returns_a_link_when_passed_a_link_value_value_with_api_data_to_link_type():

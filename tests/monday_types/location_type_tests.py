@@ -3,11 +3,11 @@ from nose.tools import eq_,raises
 from unittest.mock import patch
 from schematics.exceptions import ConversionError, DataError
 
-from moncli import *
-from moncli import entities as en
-from moncli.enums import ColumnType
-from moncli.models import MondayModel
-from moncli import types as t
+from mondata import *
+from mondata import entities as en
+from mondata.enums import ColumnType
+from mondata.models import MondayModel
+from mondata import types as t
 
 
 def test_should_succeed_when_to_native_returns_a_location_when_passed_a_locationvalue_value_with_api_data():

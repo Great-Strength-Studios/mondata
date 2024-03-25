@@ -3,9 +3,9 @@ from datetime import datetime
 
 from nose.tools import eq_, raises
 
-from moncli import column_value as cv, error as e
-from moncli.config import DATE_FORMAT
-from moncli.enums import *
+from mondata import column_value as cv, error as e
+from mondata.config import DATE_FORMAT
+from mondata.enums import *
 
 
 def test_should_create_item_link_column_value_with_no_api_data():

@@ -2,9 +2,9 @@ import json
 from schematics.exceptions import ConversionError, DataError
 from nose.tools import eq_,raises
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli.types import ItemLinkType
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata.types import ItemLinkType
 
 
 def test_should_succeed_when_to_native_returns_a_list_when_passed_an_itemlink_value_value_with_api_data_itemlink_type():

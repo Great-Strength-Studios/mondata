@@ -2,9 +2,9 @@ import json
 from schematics.exceptions import ConversionError
 from nose.tools import eq_,raises
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli.types import DependencyType
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata.types import DependencyType
 
 
 def test_should_succeed_when_to_native_returns_a_list_when_passing_in_a_dependency_value_value_with_api_data_to_dependency_type():

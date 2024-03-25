@@ -2,9 +2,9 @@ import json
 
 from nose.tools import eq_
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli.types import TextType
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata.types import TextType
 
 
 def test_text_type_should_succeed_when_to_native_returns_a_str_when_passing_in_a_textvalue_value_with_api_get_itemdata():

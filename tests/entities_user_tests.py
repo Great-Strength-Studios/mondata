@@ -1,8 +1,8 @@
 from unittest.mock import patch
 from nose.tools import ok_, eq_
 
-from moncli import client
-from moncli.enums import NotificationTargetType
+from mondata import client
+from mondata.enums import NotificationTargetType
 
 
 @patch('moncli.api_v2.get_users')

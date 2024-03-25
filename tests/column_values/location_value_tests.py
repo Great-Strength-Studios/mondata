@@ -2,8 +2,8 @@ import json
 
 from nose.tools import eq_, raises
 
-from moncli import column_value as cv, error as e
-from moncli.enums import *
+from mondata import column_value as cv, error as e
+from mondata.enums import *
 
 def test_should_create_a_location_column_with_no_api_input_data():
 

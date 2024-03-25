@@ -1,8 +1,8 @@
 from unittest.mock import patch
 from nose.tools import ok_, eq_, raises
 
-from moncli import client, entities as en
-from moncli.enums import BoardKind, NotificationTargetType, WorkspaceKind, WorkspaceSubscriberKind
+from mondata import client, entities as en
+from mondata.enums import BoardKind, NotificationTargetType, WorkspaceKind, WorkspaceSubscriberKind
 
 
 @patch('moncli.api_v2.create_board')

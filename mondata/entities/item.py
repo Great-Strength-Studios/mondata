@@ -3,7 +3,7 @@ import json
 from schematics.models import Model
 from schematics.types import StringType
 from datetime import datetime
-from moncli.config import DATE_FORMAT, TIME_FORMAT
+from mondata.config import DATE_FORMAT, TIME_FORMAT
 
 from .. import api, entities as en, models as m, error as e, column_value as cv
 from ..error import ItemError

@@ -2,10 +2,10 @@ import json
 from schematics.exceptions import ConversionError, DataError
 from nose.tools import eq_,raises
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType, PeopleKind
-from moncli.models import MondayModel
-from moncli.types import PeopleType
+from mondata import column_value as cv
+from mondata.enums import ColumnType, PeopleKind
+from mondata.models import MondayModel
+from mondata.types import PeopleType
 
 
 def test_should_succeed_when_to_native_returns_a_list_when_passing_in_peoplevalue_value_with_api_data_and_max_allowed_is_not_1():

@@ -2,9 +2,9 @@ import json
 from datetime import datetime,timezone
 from nose.tools import eq_
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli.types import LastUpdatedType
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata.types import LastUpdatedType
 
 def test_should_suceed_when_to_native_returns_a_local_datetime_when_passed_a_last_updatedvalue_value_with_api_data_to_last_updated_type():
 

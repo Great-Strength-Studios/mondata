@@ -3,8 +3,8 @@ import json
 from unittest.mock import patch
 from nose.tools import ok_, eq_, raises
 
-from moncli import client, entities as en, column_value as cv
-from moncli.enums import ColumnType, BoardKind, WebhookEventType
+from mondata import client, entities as en, column_value as cv
+from mondata.enums import ColumnType, BoardKind, WebhookEventType
 
 USERNAME = 'test.user@foobar.org' 
 

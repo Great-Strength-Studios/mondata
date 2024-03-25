@@ -1,9 +1,9 @@
 from schematics.exceptions import ConversionError
 from nose.tools import eq_,raises
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli import types as t
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata import types as t
 
 def test_should_succeed_when_to_native_returns_a_list_when_passing_in_a_tagsvalue_value_with_api_data_to_tags_type():
     # Arrange

@@ -1,8 +1,8 @@
 from unittest.mock import patch
 from nose.tools import ok_, eq_
 
-from moncli.api_v2 import handlers, constants
-from moncli.enums import BoardKind, ColumnType, State, NotificationTargetType, WebhookEventType, WorkspaceKind, SubscriberKind
+from mondata.api_v2 import handlers, constants
+from mondata.enums import BoardKind, ColumnType, State, NotificationTargetType, WebhookEventType, WorkspaceKind, SubscriberKind
 
 EXECUTE_QUERY_PATCH = 'moncli.api_v2.handlers.execute_query'
 UPLOAD_FILE_PATCH = 'moncli.api_v2.handlers.upload_file'

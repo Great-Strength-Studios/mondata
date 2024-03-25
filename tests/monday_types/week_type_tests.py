@@ -3,9 +3,9 @@ from datetime import datetime
 from schematics.exceptions import ConversionError
 from nose.tools import eq_,raises
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli.types import WeekType
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata.types import WeekType
 
 
 def test_should_succeed_when_to_native_returns_a_week_when_passing_in_a_weekvalue_value_with_api_data_to_week_value():

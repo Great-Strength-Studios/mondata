@@ -1,12 +1,12 @@
 import json
-from moncli.entities.item import ItemError
+from mondata.entities.item import ItemError
 
 from unittest.mock import patch
 from nose.tools import ok_, eq_, raises
 
-from moncli import client, entities as en, column_value as cv
-from moncli.enums import ColumnType
-from moncli.entities.item import ItemError
+from mondata import client, entities as en, column_value as cv
+from mondata.enums import ColumnType
+from mondata.entities.item import ItemError
 
 
 @patch('moncli.api_v2.get_items')

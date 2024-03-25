@@ -3,10 +3,10 @@ from nose.tools import eq_,raises
 from enum import Enum
 import json
 
-from moncli import column_value as cv
-from moncli.enums import ColumnType
-from moncli.models import MondayModel
-from moncli import types as t
+from mondata import column_value as cv
+from mondata.enums import ColumnType
+from mondata.models import MondayModel
+from mondata import types as t
 
 # Common Column Value
 

@@ -2,8 +2,8 @@ from datetime import datetime, timezone
 
 from nose.tools import eq_, raises
 
-from moncli import column_value as cv, error as e
-from moncli.enums import *
+from mondata import column_value as cv, error as e
+from mondata.enums import *
 
 
 def test_should_create_last_updated_column_value_with_datetime_value_using_input_api_data():

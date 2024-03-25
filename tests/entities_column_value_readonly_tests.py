@@ -1,8 +1,8 @@
 import json
 from nose.tools import eq_, raises
 
-from moncli import column_value as cv, error as e
-from moncli.enums import *
+from mondata import column_value as cv, error as e
+from mondata.enums import *
 
 
 def test_should_create_file_column_value_with_empty_list_value_using_no_input_api_data():
