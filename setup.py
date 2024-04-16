@@ -4,32 +4,31 @@ except:
     from distutils.core import setup
 
 config = {
-    'description': 'Moncli, a pythonic/DDD client for Monday.com',
-    'author': 'Andrew Shatz, Trix Solutions',
-    'url': r'https://github.com/trix-solutions/moncli',
-    'download_url': r'https://github.com/trix-solutions/moncli',
-    'author_email': 'andrew.shatz@trix.solutions',
-    'version': '2.0.14',
+    'description': 'Mondata, a data-driven client for Monday.com',
+    'author': 'Andrew Shatz',
+    'url': r'https://github.com/Great-Strength-Studios/mondata',
+    'download_url': r'https://github.com/Great-Strength-Studios/mondata',
+    'author_email': 'andrew@greatstrength.me',
+    'version': '1.0.0-alpha',
     'license': 'BSD 3',
     'install_requires': [
-        'requests>=2.24.0',
-        'pytz>=2020.1',
-        'pycountry>=20.7.3',
-        'deprecated>=1.2.10',
-        'schematics>=2.1.0'
+        'requests>=2.31.0',
+        'pytz>=2024.1',
+        'pycountry>=23.12.11',
+        'deprecated>=1.2.14',
+        'schematics>=2.1.1'
     ],
     'tests_require': [
         'nose>=1.3.7'
     ],
     'packages': [
-        'moncli',
-        'moncli.api_v1',
-        'moncli.api_v2',
-        'moncli.entities',
-        'moncli.column_value'
+        'mondata',
+        'mondata.api_v2',
+        'mondata.entities',
+        'mondata.column_value'
     ],    
     'scripts': [],
-    'name': 'moncli'
+    'name': 'mondata'
 }
 
 setup(**config)
