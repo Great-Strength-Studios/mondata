@@ -75,7 +75,6 @@ DEFAULT_BOARD_QUERY_FIELDS = [
     'communication', 
     'description', 
     'permissions',
-    'pos',
     'state',
     'workspace_id',
     'updated_at'
@@ -127,10 +126,8 @@ DEFAULT_GROUP_QUERY_FIELDS = [
 
 DEFAULT_COLUMN_VALUE_QUERY_FIELDS = [
     'id',
-    'title',
     'text',
     'value',
-    'additional_info'
 ]
 
 DEFAULT_TAG_QUERY_FIELDS = [
