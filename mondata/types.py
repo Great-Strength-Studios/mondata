@@ -605,7 +605,8 @@ class StatusType(MondayType):
     def _process_column_value(self, value: cv.ColumnValue):
         if self.native_type == str:
             self.choices = [value for value in self.metadata['labels'].values()]
-        return super()._process_column_value(value)
+        index = value.value['index']
+        return self.metadata['labels'][str(index)]
                       
     def _export(self, value):
             labels = self.metadata['labels']
