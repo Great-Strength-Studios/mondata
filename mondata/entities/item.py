@@ -643,6 +643,7 @@ class Item(_Item):
             column = columns_map[id]
             column_type = column.column_type
             data['settings_str'] = column.settings_str
+            data['title'] = column.title
             values.append(cv.create_column_value(column_type, **data))
         return en.BaseColumnCollection(values)
 
@@ -1782,7 +1783,8 @@ class Item(_Item):
         """
         item_data = api.get_items(
             *api.get_field_list(api.DEFAULT_ITEM_QUERY_FIELDS, 'parent_item', *args),
-            ids=[self.id]
+            ids=[self.id],
+            api_key=self.__creds.api_key_v2
         )[0]['parent_item']
         return Item(creds=self.__creds, **item_data)
 
